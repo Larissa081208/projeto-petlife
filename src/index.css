@@ -1,0 +1,93 @@
+/* Define as configurações padrão para todos os elementos */
+* {
+    box-sizing: border-box; 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o corpo da página */
+body {
+    color: rgb(0, 0, 0);
+    background-color:  rgb(245, 236, 241);
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: rgb(3, 15, 70);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Defina um z-index maior para o cabeçalho */
+
+    
+}
+
+/* Estilos para os links de navegação no cabeçalho */
+header nav a {
+    color: floralwhite;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+    
+}
+
+/* Estilos para | ao lado dos titulos links navegacao*/
+.separator {
+    color: floralwhite; 
+    padding: 0 5px;
+}
+
+/*Estilo secao: inicio*/
+#inicio {
+    display: flex;
+    align-items:stretch ;
+    gap: 32px;
+    padding: 85px 80px 128px 80px;
+    position: relative;
+}
+
+
+/* Estilos para os títulos h1 e h2 dentro da seção 'inicio' */
+h1,
+h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* Estilos para os parágrafos dentro da seção 'inicio' */
+.paragrafo{
+    line-height: 200%;
+    margin-bottom: 40px;
+}
+
+/* Estilos para o elemento com classe 'absolute' dento da secao 'inicio'*/
+.absolute{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    z-index: -20;
+}
+
+.botao{
+    background-color: rgb(121, 104, 182);
+    /* vertical/ horizontal*/
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+.botao-transparente{
+    background-color: transparent;
+    /* vertical/ horizontal*/
+    border-radius: 8px;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+}
